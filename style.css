@@ -1,0 +1,1002 @@
+
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+/* FONTS */
+
+
+/* MEDIA QUERIES START */
+
+@media only screen and (min-width: 1px) and (max-width: 320px){
+
+  img.logo{
+    width: 50px;
+    height: 50px;
+  }
+
+  #title-rotate{
+    font-size: 15px;
+    margin-top: -10px;
+    font-weight: 300;
+  }
+
+  li#li-rotate{
+    font-size: 9px;
+    margin-left: -10px;
+  }
+
+  li#product-li{
+    font-size: 9px;
+  }
+
+  li.beach-list{
+    font-size: 10px;
+  }
+  li.hill-list{
+    font-size: 10px;
+  }
+  li.fort-list{
+    font-size: 10px;
+  }
+  li.palace-list{
+    font-size: 10px;
+  }
+
+  ul.beach-list-expand{
+    font-size: 10px;
+    margin-top: -13px;
+    margin-left: -13px;
+  }
+  ul.hill-list-expand{
+    font-size: 10px;
+    margin-top: -13px;
+    margin-left: 5px;
+  }
+  ul.fort-list-expand{
+    font-size: 10px;
+    margin-top: -13px;
+    margin-left: -17px;
+  }
+  ul.palace-list-expand{
+    font-size: 10px;
+    margin-top: -13px;
+    margin-left: -13px;
+  }
+
+  img#clip-img1{
+    width: 100px;
+    height: 100px;
+  }
+  img#clip-img2{
+    width: 100px;
+    height: 100px;
+  }
+  img#clip-img3{
+    width: 100px;
+    height: 100px;
+  }
+
+  section.graphic-img{
+    grid-template-columns: 100px 100px 100px;
+    margin-top: 40px;
+    width: 340px;
+  }
+
+  img.img-beach{
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+  }
+  img.img-hill-station{
+    width: 100px;
+    height: 100px;
+    margin-left: -60px;
+  }
+  img.img-fort{
+    width: 100px;
+    height: 100px;
+    margin-left: -130px;
+  }
+  img.img-palace{
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+  }
+  img.img-cruise{
+    width: 100px;
+    height: 100px;
+    margin-left: 0px;
+  }
+
+  h1.card-names1{
+    font-size: 10px;
+    margin-left: 25px;
+  }
+  h1.card-names2{
+    font-size: 10px;
+    margin-left: -55px;
+  }
+  h1.card-names3{
+    font-size: 10px;
+    margin-left: -105px;
+    width: fit-content;
+  }
+  h1.card-names4{
+    font-size: 10px;
+    margin-left: 65px;
+  }
+  h1.card-names5{
+    font-size: 10px;
+    margin-left: 17px;
+  }
+
+  section.card-container{
+    grid-template-columns: 100px 100px 100px;
+    margin-top: -80px;
+  }
+
+  section.card-container2{
+    grid-template-columns: 100px 100px 100px;
+  }
+
+  ul.ul-class{
+    margin-top: -130px;
+    margin-left: 30px;
+  }
+
+  .li-class img{
+    width: 100px;
+  }
+
+  p.p-class{
+    font-size: 10px;
+    color: red;
+  }
+  
+  span.parent-drop{
+    width: 0px;
+  }
+
+}
+
+
+@media only screen and (min-width: 321px) and (max-width: 480px){
+
+  img.logo{
+    width: 50px;
+    height: 50px;
+  }
+
+  #title-rotate{
+    font-size: 20px;
+    margin-top: -10px;
+    font-weight: 300;
+  }
+
+  li#li-rotate{
+    font-size: 14px;
+    margin-left: -10px;
+  }
+
+  li#product-li{
+    font-size: 14px;
+  }
+
+  li.beach-list{
+    font-size: 13px;
+  }
+  li.hill-list{
+    font-size: 13px;
+  }
+  li.fort-list{
+    font-size: 13px;
+  }
+  li.palace-list{
+    font-size: 13px;
+  }
+
+  ul.beach-list-expand{
+    font-size: 13px;
+    margin-top: -13px;
+    margin-left: -9px;
+  }
+  ul.hill-list-expand{
+    font-size: 13px;
+    margin-top: -13px;
+    margin-left: 18px;
+  }
+  ul.fort-list-expand{
+    font-size: 13px;
+    margin-top: -13px;
+    margin-left: -10px;
+  }
+  ul.palace-list-expand{
+    font-size: 13px;
+    margin-top: -13px;
+    margin-left: -9px;
+  }
+
+  img#clip-img1{
+    width: 120px;
+    height: 120px;
+  }
+  img#clip-img2{
+    width: 120px;
+    height: 120px;
+  }
+  img#clip-img3{
+    width: 120px;
+    height: 120px;
+  }
+
+  section.graphic-img{
+    grid-template-columns: 120px 120px 120px;
+    margin-top: 70px;
+    width: 500px;
+  }
+
+  img.img-beach{
+    width: 120px;
+    height: 120px;
+    margin-left: 30px;
+  }
+  img.img-hill-station{
+    width: 120px;
+    height: 120px;
+    margin-left: 10px;
+  }
+  img.img-fort{
+    width: 120px;
+    height: 120px;
+    margin-left: -10px;
+  }
+  img.img-palace{
+    width: 120px;
+    height: 120px;
+    margin-left: 80px;
+  }
+  img.img-cruise{
+    width: 120px;
+    height: 120px;
+    margin-left: 110px;
+  }
+
+  h1.card-names1{
+    font-size: 10px;
+    margin-left: 50px;
+  }
+  h1.card-names2{
+    font-size: 10px;
+    margin-left: 20px;
+  }
+  h1.card-names3{
+    font-size: 10px;
+    margin-left: 20px;
+    width: fit-content;
+  }
+  h1.card-names4{
+    font-size: 10px;
+    margin-left: 105px;
+  }
+  h1.card-names5{
+    font-size: 10px;
+    margin-left: 137px;
+  }
+
+  section.card-container{
+    grid-template-columns: 120px 120px 120px;
+    margin-top: -80px;
+  }
+
+  section.card-container2{
+    grid-template-columns: 120px 120px 120px;
+  }
+
+  ul.ul-class{
+    margin-top: -130px;
+    margin-left: 70px;
+  }
+
+  .li-class img{
+    width: 130px;
+  }
+
+  p.p-class{
+    font-size: 15px;
+    color: red;
+  }
+  
+  span.parent-drop{
+    width: 0px;
+  }
+
+}
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+
+  img.logo{
+    width: 70px;
+    height: 70px;
+  }
+
+  #title-rotate{
+    font-size: 25px;
+    margin-top: 0px;
+    font-weight: 300;
+  }
+
+  li#li-rotate{
+    font-size: 17px;
+    margin-left: -10px;
+  }
+
+  li#product-li{
+    font-size: 17px;
+  }
+
+  li.beach-list{
+    font-size: 15px;
+  }
+  li.hill-list{
+    font-size: 15px;
+  }
+  li.fort-list{
+    font-size: 15px;
+  }
+  li.palace-list{
+    font-size: 15px;
+  }
+
+  ul.beach-list-expand{
+    font-size: 15px;
+    margin-top: -13px;
+    margin-left: 0px;
+  }
+  ul.hill-list-expand{
+    font-size: 15px;
+    margin-top: -13px;
+    margin-left: 28px;
+  }
+  ul.fort-list-expand{
+    font-size: 15px;
+    margin-top: -13px;
+    margin-left: -10px;
+  }
+  ul.palace-list-expand{
+    font-size: 15px;
+    margin-top: -13px;
+    margin-left: -9px;
+  }
+
+  img#clip-img1{
+    width: 160px;
+    height: 160px;
+  }
+  img#clip-img2{
+    width: 160px;
+    height: 160px;
+  }
+  img#clip-img3{
+    width: 160px;
+    height: 160px;
+  }
+
+  section.graphic-img{
+    grid-template-columns: 160px 160px 160px;
+    margin-top: 90px;
+    width: 788px;
+  }
+
+  img.img-beach{
+    width: 160px;
+    height: 160px;
+    margin-left: 80px;
+  }
+  img.img-hill-station{
+    width: 160px;
+    height: 160px;
+    margin-left: 70px;
+  }
+  img.img-fort{
+    width: 160px;
+    height: 160px;
+    margin-left: 60px;
+  }
+  img.img-palace{
+    width: 160px;
+    height: 160px;
+    margin-left: 160px;
+  }
+  img.img-cruise{
+    width: 160px;
+    height: 160px;
+    margin-left: 230px;
+  }
+
+  h1.card-names1{
+    font-size: 13px;
+    margin-left: 110px;
+  }
+  h1.card-names2{
+    font-size: 13px;
+    margin-left: 100px;
+  }
+  h1.card-names3{
+    font-size: 13px;
+    margin-left: 100px;
+    width: fit-content;
+  }
+  h1.card-names4{
+    font-size: 13px;
+    margin-left: 190px;
+  }
+  h1.card-names5{
+    font-size: 13px;
+    margin-left: 260px;
+  }
+
+  section.card-container{
+    grid-template-columns: 160px 160px 160px;
+    margin-top: -80px;
+  }
+
+  section.card-container2{
+    grid-template-columns: 160px 160px 160px;
+  }
+
+  ul.ul-class{
+    margin-top: -130px;
+    margin-left: 15px;
+  }
+
+  .li-class img{
+    width: 150px;
+  }
+
+  p.p-class{
+    font-size: 15px;
+    color: red;
+  }
+  
+  span.parent-drop{
+    width: 0px;
+  }
+
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+
+  img.logo{
+    width: 90px;
+    height: 90px;
+  }
+
+  #title-rotate{
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: 400;
+  }
+
+  li#li-rotate{
+    font-size: 20px;
+    margin-left: -10px;
+  }
+
+  li#product-li{
+    font-size: 20px;
+  }
+
+  li.beach-list{
+    font-size: 17px;
+  }
+  li.hill-list{
+    font-size: 17px;
+  }
+  li.fort-list{
+    font-size: 17px;
+  }
+  li.palace-list{
+    font-size: 17px;
+  }
+
+  ul.beach-list-expand{
+    font-size: 17px;
+    margin-top: -13px;
+    margin-left: 9px;
+  }
+  ul.hill-list-expand{
+    font-size: 17px;
+    margin-top: -13px;
+    margin-left: 35px;
+  }
+  ul.fort-list-expand{
+    font-size: 17px;
+    margin-top: -13px;
+    margin-left: 10px;
+  }
+  ul.palace-list-expand{
+    font-size: 17px;
+    margin-top: -13px;
+    margin-left: 9px;
+  }
+
+  img#clip-img1{
+    width: 220px;
+    height: 220px;
+  }
+  img#clip-img2{
+    width: 220px;
+    height: 220px;
+  }
+  img#clip-img3{
+    width: 220px;
+    height: 220px;
+  }
+
+  section.graphic-img{
+    grid-template-columns: 220px 220px 220px;
+    margin-top: 110px;
+    width: 1044px;
+  }
+
+  img.img-beach{
+    width: 220px;
+    height: 220px;
+    margin-left: 60px;
+  }
+  img.img-hill-station{
+    width: 220px;
+    height: 220px;
+    margin-left: 90px;
+  }
+  img.img-fort{
+    width: 220px;
+    height: 220px;
+    margin-left: 120px;
+  }
+  img.img-palace{
+    width: 220px;
+    height: 220px;
+    margin-left: 170px;
+  }
+  img.img-cruise{
+    width: 220px;
+    height: 220px;
+    margin-left: 310px;
+  }
+
+  h1.card-names1{
+    font-size: 16px;
+    margin-left: 110px;
+  }
+  h1.card-names2{
+    font-size: 16px;
+    margin-left: 140px;
+  }
+  h1.card-names3{
+    font-size: 16px;
+    margin-left: 170px;
+    width: fit-content;
+  }
+  h1.card-names4{
+    font-size: 16px;
+    margin-left: 220px;
+  }
+  h1.card-names5{
+    font-size: 16px;
+    margin-left: 360px;
+  }
+
+  section.card-container{
+    grid-template-columns: 220px 220px 220px;
+    margin-top: -50px;
+  }
+
+  section.card-container2{
+    grid-template-columns: 220px 220px 220px;
+  }
+
+  ul.ul-class{
+    margin-top: -30px;
+    margin-left: 80px;
+  }
+
+  .li-class img{
+    width: 170px;
+  }
+
+  p.p-class{
+    font-size: 17px;
+    color: red;
+  }
+  
+  span.parent-drop{
+    width: 0px;
+  }
+
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1326px){
+
+  section.graphic-img{
+    width: 1348px;
+  }
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FFF0F5;
+    }
+
+html{
+  scroll-behavior: smooth;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+    /* NAV START */
+    .logo{
+      display: flex;
+      width: 110px;
+      height: 110px;
+      margin-top: 0px;
+      float: left;
+      cursor: pointer;
+ }
+  
+  .pt-title{
+      height: 70px;
+      display: flex; 
+      justify-content: center;
+      align-items: center;
+      font-family: 'Caveat', cursive;
+      font-size: 40px;
+      margin-top: 20px;
+      float: left;
+      color: black;
+  }
+  
+  .list{
+      height: 70px;
+      display: flex; 
+      justify-content: space-evenly;
+      font-family: 'Luckiest Guy', cursive;
+      font-size: 20px;
+      list-style: none;
+      margin-top: 12px;
+  }
+  
+  .list-expand{
+      display: none;
+      color: black;
+      list-style: none;
+      transform: translate(-17px, 20px);
+      font-family: 'Satisfy', cursive;
+      font-size: 21px;
+      font-weight: 700;
+      margin-top: -20px;
+  }
+
+  #li-rotate:hover{
+      color: blueviolet;
+      transform:rotate(15deg);
+  }
+  #product-li{
+    cursor: pointer;
+  }
+  #product-li:hover{
+      color: tomato;
+  }
+  
+  #title-rotate {
+    animation: blinker 5s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  .beach-list-expand{
+      display: none;
+      list-style: none;
+      font-size: 21px;
+      margin-left: 60px;
+      margin-top: 0px;
+  
+  }
+  
+  .hill-list-expand{
+      display: none;
+      list-style: none;
+      font-size: 21px;
+      margin-left: 100px;
+      margin-top: 0px;
+  
+  }
+  
+  .fort-list-expand{
+      display: none;
+      list-style: none;
+      font-size: 21px;
+      margin-left: 40px;
+      margin-top: 0px;
+  }
+  
+  .palace-list-expand{
+      display: none;
+      list-style: none;
+      font-size: 21px;
+      margin-left: 60px;
+      margin-top: 0px;
+  
+  }
+
+/* NAV END */
+
+/* GRAPHIC SECTION START  */
+.graphic-img{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: space-evenly;
+    margin-top: 110px;
+    background: #800080;
+    background: -webkit-linear-gradient(to right, #ffc0cb, #800080);
+    background: linear-gradient(to right, #ffc0cb, #800080);
+
+}
+
+#clip-img1{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    height: 300px;
+    width: 300px;
+}
+#clip-img2{
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    height: 300px;
+    width: 300px;
+}
+#clip-img3{
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    height: 300px;
+    width: 300px;
+}
+
+
+.img-switch1:hover{
+    content: url(sectionswitch1.jpg);
+}
+
+.img-switch2:hover{
+    content: url(sectionswitch2.jpg);
+}
+
+.img-switch3:hover{
+    content: url(sectionswitch3.jpg);
+}
+/* GRAPHIC SECTION END  */
+
+
+
+
+/* CARD SECTION START  */
+
+#cc-2{
+    height: 400px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    gap: 70px;
+  }
+
+  .parent-drop{
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 1));
+  }
+
+  .img-beach{
+    margin-left: 120px;
+    margin-top: 140px;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    width: 300px;
+    height: 300px;
+
+  }
+
+  .img-hill-station{
+    filter: drop-shadow(0 0 0.75rem crimson);
+    margin-left: 60px;
+    margin-top: 140px;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    width: 300px;
+    height: 300px;
+  }
+
+  .img-fort{
+    margin-top: 140px;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    width: 300px;
+    height: 300px;
+  }
+
+  .card-container2{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    gap: 70px;
+    height: 400px;
+  }
+
+  .img-palace{
+    margin-top: 20px;
+    margin-left: 300px;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    width: 300px;
+    height: 300px;
+  }
+
+  .img-cruise{
+    margin-top: 20px;
+    margin-left: 300px;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    width: 300px;
+    height: 300px;
+  }
+
+  
+  .card-names1:hover{
+    transform: rotate(7deg);
+    color: blueviolet;
+  }
+  .card-names2:hover{
+    transform: rotate(7deg);
+    color: blueviolet;
+  }
+  .card-names3:hover{
+    transform: rotate(7deg);
+    color: blueviolet;
+  }
+  .card-names4:hover{
+    transform: rotate(7deg);
+    color: blueviolet;
+  }
+  .card-names5:hover{
+    transform: rotate(7deg);
+    color: blueviolet;
+  }
+
+  
+  .card-names1{
+    
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 50;
+      margin-left: 175px;
+  }
+
+  .card-names2{
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 50;
+    margin-left: 95px;
+}
+
+.card-names3{
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 50;
+    margin-left: 75px;
+}
+
+.card-names4{
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 50;
+    margin-left: 360px;
+}
+
+.card-names5{
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 50;
+    margin-left: 360px;
+}
+
+/* CARD SECTION END */
+
+
+/* END SECTION START */
+
+.ul-class{
+  position:absolute;
+  margin:0;
+  padding:0;
+  margin-left: 210px;
+  margin-top: 80px;
+}
+
+.li-class{
+  text-align:center;
+  display:inline-block;
+  list-style:none;
+  position:relative;
+  border:solid 12px #fff;
+  background:#fff;
+  box-shadow:0 0 15px 0px #555;
+  transition:all 1s ease;
+  -o-transition:all 1s ease;
+  -moz-transition:all 1s ease;
+  -webkit-transition:all 1s ease;
+  top:50px;
+}
+
+
+.li-class:hover{
+  top:0px;
+  opacity:0.5;
+}
+
+.li-class:nth-child(1){
+    transform:rotate(10deg);
+}
+
+.li-class:nth-child(2){
+    transform:rotate(0deg);
+}
+
+.li-class:nth-child(3){
+    transform:rotate(-10deg);
+}
+
+.li-class:nth-child(4){
+    transform:rotate(20deg);
+}
+
+.p-class{
+  margin:-15px 0 0 0;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 20px;
+}
+/* top button start */
+.to-top {
+  background:linear-gradient(#014871,#D7EDE2);
+  position: fixed;
+  bottom: 16px;
+  right:32px;
+  width:40px;
+  height:40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:32px;
+  color:#1f1f1f;
+  text-decoration: none;
+  opacity:0;
+  pointer-events: none;
+  transition: all .4s;
+}
+
+.to-top.active {
+  bottom:32px;
+  pointer-events: auto;
+  opacity:1;
+}
+/* top button end */
+
+
+
+
+
+
+
+
+
+
+
